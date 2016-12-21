@@ -1,0 +1,10 @@
+{
+    "css": [
+        "css/colReorder.semanticui.css",
+        "css/colReorder.semanticui.min.css"
+    ],
+    "js": [],
+    "src-repo": "http://github.com/DataTables/ColReorder",
+    "last-sync": "4fa02b90857f5b9a1791e1a13210dddf9ee37e54",
+    "last-tag": "1.3.2"
+}
