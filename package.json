@@ -3,7 +3,7 @@
     "version": "1.4.0",
     "description": "ColReorder for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
-        "css/colReorder.semanticui.css"
+        "css/**/*.css"
     ],
     "main": "./js/colReorder.semanticui.js",
     "keywords": [
