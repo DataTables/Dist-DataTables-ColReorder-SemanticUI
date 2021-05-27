@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <id>datatables.net-colreorder-se</id>
-    <version>1.5.2</version>
-    <description>ColReorder for DataTables</description>
-    <authors>SpryMedia Ltd</authors>
-    <projectUrl>http://datatables.net</projectUrl>
-    <license type="expression">MIT</license>
-    <tags>colreorder DataTables jQuery table SemanticUI</tags>
-    <repository type="git" url="https://github.com/DataTables/Dist-DataTables-ColReorder-SemanticUI.git"/>
-    <dependencies>
-      <dependency id="jquery" version="1.7.0"/>
-      <dependency id="datatables.net" version="1.10.15"/>
-      <dependency id="datatables.net-colreorder" version="1.5.2"/>
-      <dependency id="semanticui" version="2.*"/>
-    </dependencies>
-    <contentFiles>
-      <files include="**/*" buildAction="Content"/>
-    </contentFiles>
-  </metadata>
-  <files>
-    <file src="js/colreorder.semanticui.js" target="content\Scripts"/>
-    <file src="js/colreorder.semanticui.min.js" target="content\Scripts"/>
-    <file src="css/colreorder.semanticui.css" target="content\Content"/>
-    <file src="css/colreorder.semanticui.min.css" target="content\Content"/>
-    <file src="js/colreorder.semanticui.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="js/colreorder.semanticui.min.js" target="contentFiles\any\any\wwwroot\js"/>
-    <file src="css/colreorder.semanticui.css" target="contentFiles\any\any\wwwroot\css"/>
-    <file src="css/colreorder.semanticui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-  </files>
+    <metadata>
+        <version>1.5.3</version>
+        <id>datatables.net-colreorder-se</id>
+        <description>This is ColReorder for DataTables with styling for [SemanticUI](https://semantic-ui.com/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-ColReorder-SemanticUI.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>ColReorder  Reorder  Semantic  SemanticUI  Semantic UI  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-colreorder" version=">=1.5.3"/>
+            <dependency id="datatables.net-se" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/colReorder.semanticui.js" target="content\Scripts"/>
+        <file src="js/colReorder.semanticui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/colReorder.semanticui.min.js" target="content\Scripts"/>
+        <file src="js/colReorder.semanticui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/colReorder.semanticui.css" target="content\Content"/>
+        <file src="css/colReorder.semanticui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/colReorder.semanticui.min.css" target="content\Content"/>
+        <file src="css/colReorder.semanticui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/colReorder.semanticUI.d.ts" target="content\Scripts"/>
+        <file src="types/colReorder.semanticUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
 </package>
+

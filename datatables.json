@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/colReorder.semanticui.css",
-        "css/colReorder.semanticui.min.css"
-    ],
     "js": [
         "js/colReorder.semanticui.js",
         "js/colReorder.semanticui.min.js"
     ],
+    "css": [
+        "css/colReorder.semanticui.css",
+        "css/colReorder.semanticui.min.css"
+    ],
+    "types": [
+        "types/colReorder.semanticUI.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/ColReorder",
-    "last-sync": "ad474638ebd9559892900bc23246e6fcbd62ce1f",
     "last-tag": "1.5.3"
 }

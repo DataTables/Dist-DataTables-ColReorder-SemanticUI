@@ -1,30 +1,49 @@
 {
     "name": "datatables.net-colreorder-se",
+    "description": "ColReorder for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
+    "main": "js/colReorder.semanticui.js",
+    "style": "css/colReorder.semanticui.css",
     "version": "1.5.3",
-    "description": "ColReorder for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/colReorder.semanticui.js",
     "keywords": [
-        "reorder",
-        "DataTables",
+        "ColReorder",
+ "Reorder",
+        "Semantic",
+ "SemanticUI",
+ "Semantic UI",
+        "Datatables",
         "jQuery",
         "table",
-        "Semantic UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-colreorder": ">=1.5.3",
+        "datatables.net-se": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-se": "^1.10.15",
-        "datatables.net-colreorder": "1.5.3"
-    },
-    "style": "css/colReorder.semanticui.css"
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-ColReorder-SemanticUI.git"
+    }
 }
