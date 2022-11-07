@@ -5,7 +5,7 @@
     "module": "js/colReorder.semanticui.mjs",
     "style": "css/colReorder.semanticui.css",
     "types": "./types/types.d.ts",
-    "version": "1.5.6",
+    "version": "1.6.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,10 +14,10 @@
     ],
     "keywords": [
         "ColReorder",
- "Reorder",
+        "Reorder",
         "Semantic",
- "SemanticUI",
- "Semantic UI",
+        "SemanticUI",
+        "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
