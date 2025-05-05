@@ -5,7 +5,7 @@
     "module": "js/colReorder.semanticui.mjs",
     "style": "css/colReorder.semanticui.css",
     "types": "./types/colReorder.semanticui.d.ts",
-    "version": "2.0.4",
+    "version": "2.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-colreorder": "2.0.4",
+        "datatables.net-colreorder": "2.1.0",
         "datatables.net-se": "^2",
         "jquery": ">=1.7"
     },
