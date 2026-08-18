@@ -1,4 +1,4 @@
-/*! ColReorder Fomantic styling 3.0.0 for DataTables
+/*! ColReorder Fomantic styling 3.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 import DataTable from"datatables.net-se";import ColReorder from"datatables.net-colreorder";export default DataTable;
