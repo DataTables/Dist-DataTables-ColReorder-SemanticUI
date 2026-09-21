@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-colreorder-se",
     "description": "ColReorder for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
-    "main": "js/colReorder.semanticui.js",
-    "module": "js/colReorder.semanticui.mjs",
-    "style": "css/colReorder.semanticui.css",
+    "main": "./js/colReorder.semanticui.js",
+    "module": "./js/colReorder.semanticui.mjs",
+    "style": "./css/colReorder.semanticui.css",
     "types": "./types/colReorder.semanticui.d.ts",
     "version": "3.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "ColReorder",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/ColReorder.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/colReorder.semanticui.d.ts",
+            "import": "./js/colReorder.semanticui.mjs",
+            "default": "./js/colReorder.semanticui.mjs",
+            "require": "./js/colReorder.semanticui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/colReorder.semanticui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
